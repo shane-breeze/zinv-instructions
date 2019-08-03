@@ -50,7 +50,7 @@ The notebooks can be used locally on the system, or preferably through an ssh tu
 2. Activate your environment and install jupyter:
 ```bash
 conda install pip
-conda install -c conda-forge nodejs
+conda install -c conda-forge nodejs==8
 pip install jupyterlab ipywidgets widgetsnbextension
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 #jupyter labextension install jupyterlab_vim # vim bindings in jupyterlab
